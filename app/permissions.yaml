@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mysql-configuration
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storege: 3Gi
